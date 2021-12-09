@@ -1,0 +1,478 @@
+{
+    "root": {
+        "data": {
+            "id": "cg8qg3r75aw0",
+            "created": 1638846071660,
+            "text": "JavaScript教程",
+            "note": "- 标准：ECMAScript    ",
+            "hyperlink": "https://wangdoc.com/javascript/index.html",
+            "hyperlinkTitle": ""
+        },
+        "children": [
+            {
+                "data": {
+                    "id": "cg8qgcj5stk0",
+                    "created": 1638846090765,
+                    "text": "数据类型",
+                    "hyperlink": "https://wangdoc.com/javascript/types/index.html",
+                    "hyperlinkTitle": ""
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "cg8qhf679wo0",
+                            "created": 1638846174876,
+                            "text": "原始类型",
+                            "expandState": "expand"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "cg8qgrd6moo0",
+                                    "created": 1638846123056,
+                                    "text": "数值",
+                                    "expandState": "expand",
+                                    "note": "- 64位浮点数\n1：符号位\n2-12：指数部分\n13-64：小数部分（有效数字）",
+                                    "hyperlink": "https://wangdoc.com/javascript/types/number.html",
+                                    "hyperlinkTitle": ""
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "cgajztq4ryo0",
+                                            "created": 1639030989255,
+                                            "text": "parseInt()"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "cgajzw1ke5c0",
+                                            "created": 1639030994300,
+                                            "text": "parseFloat()"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "cgajzymx8c00",
+                                            "created": 1639030999945,
+                                            "text": "Number()"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "cgak081i8s00",
+                                            "created": 1639031020418,
+                                            "text": "isNaN()"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "cgak0a8bmv40",
+                                            "created": 1639031025184,
+                                            "text": "isFinite()",
+                                            "note": "是否是正常的数值"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "cg8qgsnt9c00",
+                                    "created": 1638846125875,
+                                    "text": "字符串",
+                                    "hyperlink": "https://wangdoc.com/javascript/types/string.html",
+                                    "hyperlinkTitle": ""
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "cgak24qrduo0",
+                                            "created": 1639031169966,
+                                            "text": "转义"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "cgak4x0fzrs0",
+                                            "created": 1639031388230,
+                                            "text": "length",
+                                            "note": "1. 只读\n2. 不支持4字节字符"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "cgak3cb4h9c0",
+                                            "created": 1639031264799,
+                                            "text": "Base64转码"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "cgak3fw46940",
+                                                    "created": 1639031272599,
+                                                    "text": "atob()",
+                                                    "note": "base64编码 -> 原值"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "cgak3hk4wtc0",
+                                                    "created": 1639031276228,
+                                                    "text": "btoa()",
+                                                    "note": "原值 -> base64编码"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "cg8qgw0qd9c0",
+                                    "created": 1638846133187,
+                                    "text": "布尔值"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "cg8qhw04zag0",
+                            "created": 1638846211515,
+                            "text": "复合类型"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "cg8qh565o800",
+                                    "created": 1638846153106,
+                                    "text": "object"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "cg8qipeqb200",
+                                            "created": 1638846275524,
+                                            "text": "狭义的object",
+                                            "hyperlink": "https://wangdoc.com/javascript/types/object.html",
+                                            "hyperlinkTitle": ""
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "cgakez3wiu00",
+                                                    "created": 1639032176434,
+                                                    "text": "属性的遍历",
+                                                    "priority": 2
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "cgakf9oifu80",
+                                                            "created": 1639032199448,
+                                                            "text": "Object.keys()",
+                                                            "note": "可遍历的自身属性"
+                                                        },
+                                                        "children": []
+                                                    },
+                                                    {
+                                                        "data": {
+                                                            "id": "cgakg0yi5cw0",
+                                                            "created": 1639032258826,
+                                                            "text": "for...in",
+                                                            "note": "可遍历的自身属性与继承属性"
+                                                        },
+                                                        "children": []
+                                                    },
+                                                    {
+                                                        "data": {
+                                                            "id": "cgakmx0gikg0",
+                                                            "created": 1639032798786,
+                                                            "text": "Object.getOwnPropertyNames()",
+                                                            "note": "所有的自身属性"
+                                                        },
+                                                        "children": []
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "cgakk2fkj480",
+                                                    "created": 1639032575491,
+                                                    "text": "属性存在"
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "cgakk5ekf4g0",
+                                                            "created": 1639032581961,
+                                                            "text": "in",
+                                                            "note": "自身属性与继承属性"
+                                                        },
+                                                        "children": []
+                                                    },
+                                                    {
+                                                        "data": {
+                                                            "id": "cgakk6tlfgo0",
+                                                            "created": 1639032585046,
+                                                            "text": "Object.hasOwnProperty()",
+                                                            "note": "自身属性"
+                                                        },
+                                                        "children": []
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "cg8qisct0480",
+                                            "created": 1638846281938,
+                                            "text": "array"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "cg8qitaktuo0",
+                                            "created": 1638846283980,
+                                            "text": "function"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "cg8qi1lkrio0",
+                            "created": 1638846223695,
+                            "text": "特殊值",
+                            "expandState": "expand"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "cg8qgyd5lm80",
+                                    "created": 1638846138291,
+                                    "text": "undefined"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "cg8qh3tv0o00",
+                                    "created": 1638846150185,
+                                    "text": "null"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "cg8tt39uziw0",
+                            "created": 1638855552676,
+                            "text": "值类型",
+                            "priority": 2,
+                            "note": null
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "cg8tt7laigw0",
+                                    "created": 1638855562074,
+                                    "text": "typeof"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "cg8tt8u5fgw0",
+                                    "created": 1638855564786,
+                                    "text": "instanceof"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "cg8ttgiylxk0",
+                                    "created": 1638855581524,
+                                    "text": "Object.prototype.toString()"
+                                },
+                                "children": []
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "cg8qu7w3jfk0",
+                    "created": 1638847177762,
+                    "text": "基本语法",
+                    "hyperlink": "https://wangdoc.com/javascript/basic/grammar.html",
+                    "hyperlinkTitle": ""
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "cg8qucvj84o0",
+                            "created": 1638847188612,
+                            "text": "语句",
+                            "note": "进行某种操作"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cg8qvwdu7fk0",
+                            "created": 1638847309442,
+                            "text": "变量",
+                            "note": "对值的具名引用"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "cg8qvzm738g0",
+                                    "created": 1638847316477,
+                                    "text": "变量提升",
+                                    "priority": 1
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "cg8qwvkjjrk0",
+                            "created": 1638847386034,
+                            "text": "标识符"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cg8qzcov34g0",
+                            "created": 1638847580029,
+                            "text": "注释"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cg8qzduwsz40",
+                            "created": 1638847582572,
+                            "text": "区块"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cg8qzwz85800",
+                            "created": 1638847624191,
+                            "text": "条件语句"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "cg8qzz4lkyw0",
+                                    "created": 1638847628870,
+                                    "text": "if"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "cg8r04mjhsg0",
+                                    "created": 1638847640839,
+                                    "text": "if...else"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "cg8r0be2sfk0",
+                                    "created": 1638847655564,
+                                    "text": "switch"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "cg8r0or9r2w0",
+                                    "created": 1638847684660,
+                                    "text": "三元运算符?:"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "cg8r0zv5fv40",
+                            "created": 1638847708840,
+                            "text": "循环语句"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "cg8r188vnkw0",
+                                    "created": 1638847727084,
+                                    "text": "while"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "cg8r1a1ha9c0",
+                                    "created": 1638847730990,
+                                    "text": "for"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "cg8r1atnzq80",
+                                    "created": 1638847732694,
+                                    "text": "do...while"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "cg8r1rg5g2o0",
+                                    "created": 1638847768882,
+                                    "text": "break, coutinue"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "cg8sdqt1etc0",
+                                    "created": 1638851528965,
+                                    "text": "label"
+                                },
+                                "children": []
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "template": "default",
+    "theme": "fresh-blue",
+    "version": "1.4.43"
+}
